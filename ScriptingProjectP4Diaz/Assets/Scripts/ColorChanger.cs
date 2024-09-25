@@ -49,9 +49,5 @@ public class ColorChanger : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = Color.gray;
         }
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            GetComponent<Renderer>().material.color = Color.grey;
-        }
     }
 }
