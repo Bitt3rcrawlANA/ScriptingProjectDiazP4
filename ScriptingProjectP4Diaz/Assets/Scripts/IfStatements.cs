@@ -8,6 +8,10 @@ public class IfStatements : MonoBehaviour
     float hotLimitTemperature = 70.0f;
     float coldLimitTemperature = 40.0f;
 
+    void Start()
+    {
+
+    }
 
     void Update()
     {
