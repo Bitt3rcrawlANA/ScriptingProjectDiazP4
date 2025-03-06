@@ -14,6 +14,7 @@ public class KeyInput : MonoBehaviour
     public Text boolDisplay2;
     public Text boolDisplay3;
 
+    // Start is called before the first frame update
     void Start()
     {
         graphic.sprite = standard;
